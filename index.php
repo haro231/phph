@@ -47,7 +47,9 @@ elseif($myage >= 16){
 else{
     print "Come back when you are 16";
 }
-
+?>
+<br>
+<?php
 switch($wantedgood){
     case "Specs":
         echo "You have to be 16 to buy this";
