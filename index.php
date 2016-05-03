@@ -42,7 +42,7 @@ elseif($myage >= 18){
 elseif($myage >= 16){
     print "You can buy only Specs";
 }
-elseif($myage > 16){
+else{
     print "Come back when you are 16";
 }
 
