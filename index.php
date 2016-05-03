@@ -67,6 +67,7 @@ switch($wantedgood){
 
 }
 ?>
+<br>
 <?php
 switch($provisionedActivities){
     case 1:
