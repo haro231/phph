@@ -21,7 +21,7 @@ $myage = "";
 $name = "";
 ?>
 <h1>SPECS, MUGS & SAUSAGE ROLLS</h1>
-<form method = "post" action ="process.php">
+<form method = "post" action ="index.php">
     <h5>Name: <input type = "text" name = "name"></h5>
     <h5>Age: <input type = "number" name="age"></h5>
     <input type = "submit" name = "submit" value=" Submit">
