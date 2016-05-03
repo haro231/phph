@@ -24,6 +24,7 @@ $provisionedActivities = array("Specs", "Mugs", "Sausages");
 ?>
 <h1>SPECS, MUGS & SAUSAGE ROLLS</h1>
 <form method = "post" action ="index.php">
+    <a href="adminer.php">Adminer</a>
     <h5>Name: <input type = "text" name = "name"></h5>
     <h5>Age: <input type = "number" name="age"></h5>
     <h5>Goods: <input type = "text" name="wantedgoods"></h5>
