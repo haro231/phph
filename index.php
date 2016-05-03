@@ -78,7 +78,7 @@ switch($provisionedActivities){
         echo $provisionedActivities[2];
         break;
     case 3:
-        echo $provisionedActivities;
+        echo $provisionedActivities[0],[1],[2];
 }
 ?>
 
