@@ -21,14 +21,14 @@
     echo "Hello World";
     ?>
 </p>
-<p>
+<h1>
     <?php
     $myname = "Harry Asin";
     $myage = 26;
-    echo "My Name is". $myname . "and i am" . $myage;
+    echo "My Name is". $myname . " and i am" . $myage;
     echo $myage;
     ?>
-</p>
+</h1>
 
 </body>
 </html>
