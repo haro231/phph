@@ -16,16 +16,20 @@
     <title>Practice</title>
 </head>
 <body>
-<h1>SPECS, MUGS & SAUSAG ROLLS</h1>
+<?php
+$myage = "";
+$name = "";
+?>
+<h1>SPECS, MUGS & SAUSAGE ROLLS</h1>
 <form method = "post" action ="index.php">
-    Name: <input type = "text" name = "name">
-    Age: <input type = "number" name="age">
+    <h5>Name: <input type = "text" name = "name"></h5>
+    <h5>Age: <input type = "number" name="age"></h5>
     <input type = "submit" name = "submit" value=" Submit">
 </form>
 
 <?php
-$myage = "";
-$name = "";
+
+
 $myage = $_POST ['age'];
 $name = $_POST ['name'];
 
