@@ -19,6 +19,7 @@
 <?php
 $myage = "";
 $name = "";
+$wantedgood = ""
 ?>
 <h1>SPECS, MUGS & SAUSAGE ROLLS</h1>
 <form method = "post" action ="index.php">
@@ -46,6 +47,20 @@ else{
     print "Come back when you are 16";
 }
 
+switch($wantedgood){
+    case "Specs":
+        echo "You have to be 16 to buy this";
+        break;
+    case "Mugs":
+        echo "You have to be 18 to buy this";
+        break;
+    case "Sausages":
+        echo "You need to be 21 to buy this";
+        break;
+    default:
+        echo "Thank You";
+
+}
 ?>
 
 
