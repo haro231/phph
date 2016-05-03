@@ -25,12 +25,13 @@ $wantedgood = ""
 <form method = "post" action ="index.php">
     <h5>Name: <input type = "text" name = "name"></h5>
     <h5>Age: <input type = "number" name="age"></h5>
+    <h5>Goods: <input type = "text" name="wantedgoods"></h5>
     <input type = "submit" name = "submit" value=" Submit">
 </form>
 
 <?php
 
-
+$wantedgood = $_POST ['wantedgoods'];
 $myage = $_POST ['age'];
 $name = $_POST ['name'];
 
