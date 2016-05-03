@@ -19,18 +19,20 @@
 <?php
 $myage = "";
 $name = "";
-$wantedgood = ""
+$wantedgood = "";
+$provisionedActivities = array("Specs", "Mugs", "Sausages");
 ?>
 <h1>SPECS, MUGS & SAUSAGE ROLLS</h1>
 <form method = "post" action ="index.php">
     <h5>Name: <input type = "text" name = "name"></h5>
     <h5>Age: <input type = "number" name="age"></h5>
     <h5>Goods: <input type = "text" name="wantedgoods"></h5>
+    <h5>Activities: <input type = "number" name="act"</h5>
     <input type = "submit" name = "submit" value=" Submit">
 </form>
 
 <?php
-
+$provisionedActivities = $_POST ['act'];
 $wantedgood = $_POST ['wantedgoods'];
 $myage = $_POST ['age'];
 $name = $_POST ['name'];
@@ -65,7 +67,19 @@ switch($wantedgood){
 
 }
 ?>
-
+<?php
+switch($provisionedActivities){
+    case 1:
+        echo $provisionedActivities[1] = "Hugs";
+        break;
+    case 2:
+        unset($provisionedActivities[2]);
+        echo $provisionedActivities[2];
+        break;
+    case 3:
+        echo $provisionedActivities;
+}
+?>
 
 </body>
 </html>
