@@ -21,7 +21,13 @@
     echo "Hello World";
     ?>
 </p>
-
+<h1>
+    <?php
+    $myname = "Harry Asin";
+    $myage = 26;
+    echo "My Name is". $myname . "and i am" . $myage;
+    ?>
+</h1>
 
 </body>
 </html>
