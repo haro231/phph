@@ -24,6 +24,8 @@
 </form>
 
 <?php
+$myage = "";
+$name = "";
 $myage = $_POST ['age'];
 $name = $_POST ['name'];
 
